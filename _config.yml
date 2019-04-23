@@ -6,28 +6,28 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: U.K. Indicators For The Sustainable Development Goals
+title: Lithuania. Indicators For The Sustainable Development Goals
 description: Data Platform Prototype
 baseurl: "/sdg-indicators" # the subpath of your site, e.g. /blog
 url: ""
 data_dir: data
 environment: staging
-remotedatabaseurl: "https://ONSdigital.github.io/sdg-data"
+remotedatabaseurl: "https://LietuvosStatistikosDepartamentas.github.io/sdg-data"
 # permalink: /news/:year/:month/:day/:title.html
 
 jekyll_get_json:
   - data: meta
-    json: 'https://ONSdigital.github.io/sdg-data/meta/all.json'
+    json: 'https://LietuvosStatistikosDepartamentas.github.io/sdg-data/meta/all.json'
     # cache: true
     # directory: 'remotedata'
   - data: headlines
-    json: 'https://ONSdigital.github.io/sdg-data/headline/all.json'
+    json: 'https://LietuvosStatistikosDepartamentas.github.io/sdg-data/headline/all.json'
     # cache: true
     # directory: 'remotedata'
   - data: schema
-    json: 'https://ONSdigital.github.io/sdg-data/meta/schema.json'
+    json: 'https://LietuvosStatistikosDepartamentas.github.io/sdg-data/meta/schema.json'
   - data: reporting
-    json: 'https://ONSdigital.github.io/sdg-data/stats/reporting.json'
+    json: 'https://LietuvosStatistikosDepartamentas.github.io/sdg-data/stats/reporting.json'
   - data: translations
     # Pin to version of the translation repo
     json: 'https://open-sdg.github.io/sdg-translations/translations-0.5.0.json'
@@ -36,7 +36,7 @@ analytics:
   ga_prod: ''
 
 # Social media accounts.
-twitter: 'ONS'
+twitter: 'LietuvosStatistikosDepartamentas'
 
 
 ###################################################################################################
@@ -49,7 +49,7 @@ email_contacts:
 # Github Repo for Data
 repo_name: sdg-data
 branch: develop
-org_name: ONSdigital
+org_name: LietuvosStatistikosDepartamentas
 
 # Build settings
 markdown: kramdown
@@ -60,8 +60,8 @@ exclude: [vendor, scripts, remotedata]
 # International Support
 # Eg name: Australia and adjective: Australian
 country:
-  name: UK
-  adjective: UK
+  name: LT
+  adjective: LT
 
 # Pages
 collections:
