@@ -414,3 +414,5 @@ prose:
             element: text
             label: "Graph Title"
     
+
+theme: jekyll-theme-cayman
